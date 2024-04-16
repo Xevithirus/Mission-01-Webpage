@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <script src="app.js"></script>
+    <title>CSS</title>
+    <script src="https://kit.fontawesome.com/9e4cb2d322.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-imgph">
+            <img src="images/fantasy-town.jpg" alt="Village" style="max-width: 100%; height: auto;">
+            <div id="login">
+                <div id="login-icon" onclick="openLoginDropdownMenu()">🔒</div>
+                <div id="login-dropdown">
+                    <input type="username" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <button onclick="login()">Sign In</button>
+                </div>
+            </div>   
+            <div class="header-text">
+                <h1>Cascadia: Steel Sheath (CSS)</h1>
+                <p>Let your legend begin</p>
+            </div>
+            <div id="animated-icon">
+                <i class="fa-solid fa-ghost"></i>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="character.html">Character</a>
+        <a href="#">Quest</a>
+        <a href="#">Tavern</a>
+        <a href="#">Guild</a>
+        <a href="#">Shop</a>
+        <a href="#">Lore</a>
+    </nav>
+    <main>
+        <section id="left">
+            <div class="raised-text">
+                <h2>Home</h2>
+                <div id="home-imgph">
+                    <img src="images/home.jpg" alt="Village Home" style="max-width: 100%; height: auto;">
+                </div>
+                <p>Welcome home! The place to hang your swords and admire your trophies.</p>
+            <h3>The Village Daily</h3>
+            <div id="home-imgph">
+                <img src="images/the-village-daily-news.jpg" alt="The Village Daily" style="max-width: 100%; height: auto;">
+            </div>
+            <p>If there is no villain, there is no hero. That holds true for a story that unfolded late
+                last night in the outskirts of Vynar. A knight named Sir Chuck found himself in a pickle after beheading
+                a mighty dragon. He fought the beast for hours in a heroic attempt to save a princess in distress. 
+                But things took a turn for the worst when daylight broke, revealing the princess to be none other than Old 
+                Farmer Dinkleton--and the dragon corpse--his prized steer!</p>
+            </div>  
+        </section>
+        <section id="right">
+                <article>
+                    <h2>WORLD MAP</h2>
+                    <div class="raised-text">
+                        <div id="world-map-imgph">
+                            <img id="world-map" src="images/Generica.jpg" alt="World Map" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                </article>
+                <br />
+                <article>
+                    <h2>Wise Words of the Wizard</h2>
+                    <fieldset class="raised-text">
+                    <h3>Tips and tricks to succeed in Cascadia: Steel Sheath.<br/></h3>
+                    <p>TIP #469: Take big risks! If you succeed, you will be happier. If you fail, you will be wiser. Either way you benefit.</p>
+                </article>
+                <br/>
+            </fieldset>
+            <article>
+            <h2>Achievements</h2>
+            <table style="width:100%" class="raised-text">
+                <style>
+                    table, th, td {
+                        border: 1px solid;
+                        color: #3a0c06;
+                        padding: 10px;
+                        text-align: left;
+                        vertical-align: top;
+                    }
+                </style>
+                <div class="achievement-icons">
+                <tr>
+                    <th><div class="achievement-icons">
+                        <i class="fa-solid fa-scroll"></i>
+                        </div>
+                    </th>
+                    <th><span class="icon-text"> Quests Completed: 25</span></th>
+                </tr>
+                <tr>
+                    <th><div class="achievement-icons">
+                            <i class="fa-solid fa-skull"></i>
+                        </div>
+                    </th>
+                    <th><span class="icon-text"> Deaths: 6</span></th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="achievement-icons">
+                            <i class="fa-solid fa-ghost"></i>
+                        </div>
+                    </th>
+                    <th><span class="icon-text"> Monsters Slain: 237</th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="achievement-icons">
+                            <i class="fa-solid fa-dragon"></i>
+                        </div>
+                    </th>
+                    <th><span class="icon-text">Bosses Defeated: 8</span></th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="achievement-icons">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                    </th>
+                    <th><span class="icon-text"> New Locations Found: 2</span></th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="achievement-icons">
+                            <i class="fa-solid fa-unlock"></i>
+                        </div>
+                    </th>
+                    <th><span class="icon-text"> Secrets Discovered: 1</span</th>
+                </tr>
+            </table>
+            </article>
+        </section>
+    </main>
+        <footer>
+            <h3>&#169 2024 Adrastos Legends Inc. All rights reserved.</h3>
+        </footer>
+</body>
+</html>

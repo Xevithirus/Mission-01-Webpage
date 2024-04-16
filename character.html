@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="character.css" />
+    <title>CSS</title>
+    <script src="https://kit.fontawesome.com/9e4cb2d322.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header-imgph">
+            <img src="images/weapons-room.jpg" alt="Village Home" style="max-width: 100%; height: auto;">
+            <div id="login">
+                <div id="login-icon" onclick="openLoginDropdownMenu()">🔒</div>
+                <div id="login-dropdown">
+                    <input type="username" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <button onclick="login()">Sign In</button>
+                </div>
+            </div>
+            <div class="header-text">
+                <h1>Cascadia: Steel Sheath (CSS)</h1>
+                <p>Let your legend begin</p>
+            </div>
+            <div id="animated-icon">
+                <i class="fa-solid fa-ghost"></i>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="character.html">Character</a>
+        <a href="#">Quest</a>
+        <a href="#">Tavern</a>
+        <a href="#">Guild</a>
+        <a href="#">Shop</a>
+        <a href="#">Lore</a>
+    </nav>
+<main>
+    <section id="character-info">
+        <h1><u>Character Sheet</u></h1>
+        <h2>Name: Jehanne d'Arc</h2>
+    </section>
+    <section id="character-content">
+        <div id="character-imgph">
+            <h2>Attributes</h2>
+            <img id="character-image" src="images/Knight.jpg" alt="Knight" style="max-width: 100%; height: auto;">
+        </div>
+            <article>
+        </article>
+            <table style="width:100%" class="raised-text">
+                <style>
+                    table,
+                    th,
+                    td {
+                        border: 1px solid;
+                        color: #3a0c06;
+                        padding: 10px;
+                        text-align: left;
+                        vertical-align: top;
+                    }
+                    </style>
+                    <tr>
+                        <th>Level</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>Experience</th>
+                        <th>340/1200</th>
+                    </tr>
+                    <tr>
+                        <th>Health</th>
+                        <th>182/250</th>
+                    </tr>
+                    <tr>
+                        <th>Energy</th>
+                        <th>28/45</th>
+                    </tr>
+                    <tr>
+                        <th>Mana</th>
+                        <th>6/9</th>
+                    </tr>
+                    <tr>
+                        <th>Strength</th>
+                        <th>52</th>
+                    </tr>
+                    <tr>
+                        <th>Intellect</th>
+                        <th>37</th>
+                    </tr>
+                    <tr>
+                        <th>Armour</th>
+                        <th>82</th>
+                    </tr>
+                    <tr>
+                        <th>Resistance</th>
+                        <th>12</th>
+                    </tr>
+                    <tr>
+                        <th>Agility</th>
+                        <th>7</th>
+                    </tr>       
+            </table>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h3>&#169 2024 Adrastos Legends Inc. All rights reserved.</h3>
+    </footer>
+</body>
+</html>

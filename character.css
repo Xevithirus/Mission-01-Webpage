@@ -1,0 +1,55 @@
+
+#character-info {
+    font-family: Arial, serif;
+    color: white;
+    text-shadow: 4px 6px 5px rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    background-image: url('images/closeup-sword.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-color: rgb(255, 236, 194);
+    border-style:groove;
+    border-color: rgb(128, 81, 21);
+}
+
+#character-content {
+    background-image: url('images/fantasy-backdrop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: rgb(255, 236, 194);
+    border-style: groove;
+    border-color: rgb(128, 81, 21);
+    border-width: 5px;
+}
+
+#character-info,
+#character-content,
+#character-attributes {
+    width: 100%;
+}
+
+#character-imgph {
+    max-width: 20%;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#character-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #character-content {
+        flex-direction: column;
+    }
+}
