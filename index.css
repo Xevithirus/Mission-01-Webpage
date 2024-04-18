@@ -25,7 +25,7 @@ header {
 
 /* style header img */
 #header-imgph {
-    position: relative;
+    position: relative; /*need to learn more about position */
     width: 100%;
     height: 185px;
     overflow: hidden;
@@ -244,6 +244,7 @@ main {
 
 
 #world-map-imgph {
+    cursor: pointer;
     width: 100%;
     height: auto;
     overflow: hidden;
